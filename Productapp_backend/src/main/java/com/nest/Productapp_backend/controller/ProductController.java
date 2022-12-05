@@ -20,4 +20,9 @@ public class ProductController {
     public String EditProduct(){
         return "product edited";
     }
+
+    @PostMapping("/delete")
+    public String DeleteProduct(){
+        return "product deleted";
+    }
 }
